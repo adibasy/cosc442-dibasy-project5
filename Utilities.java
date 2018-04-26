@@ -100,8 +100,9 @@ public class Utilities{
       }catch (NoNextStateException e){
         Utilities.printException("WMethod", "runFSM", " Invalid token: "+token);
       }
-    }
+    }  
     Utilities.debugFSMExecution("\nFSM execution completed. Final state: "+currentState);
     Utilities.debugFSMExecution("Output pattern:"+outputPattern);
   }
+  
 }// End of class Utilities.

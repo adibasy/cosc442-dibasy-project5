@@ -352,7 +352,7 @@ public class WMethod{
    Driver for the W-algorithm.
    */
    public static void main(String [] args){
-     
+	  
      System.out.println("Test Generation Using the W-method. V2.0. August 1, 2013\n");
      fileSource=new Scanner(System.in);
      fsmFilename=getFilename(); // Get  from the user file name for FSM.
@@ -381,16 +381,20 @@ public class WMethod{
      Vector <String> tests=generateTests(transitionCover, w); // Generate tests.
      Utilities.printAllTestCases(tests); // Print tests.
      
-     // TODO: 	Write the necessary code to iterate through all test cases and run them against
-     // 		the FSM using the Utilities.runFSM() method. 
-     //
+     
      // Example use of the Utilities.runFSM() method
      // Utilities.runFSM(FSM, 1, "a a b a b", " ");
      
+     for (int i = 0; i < tests.size(); i ++) { 
+    	 Utilities.runFSM(FSM, 1, tests.get(i).replace(""," ")," ");
+     } 
+   
+     /*
      for (String testCase : tests) {
     	 Utilities.runFSM(FSM, 1, testCase, " ");
      }
-     
+     */
+    
    }// End of main()
    
 }//End of class WMethod
