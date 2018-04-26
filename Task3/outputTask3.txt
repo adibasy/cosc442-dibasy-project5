@@ -1,0 +1,3810 @@
+Test Generation Using the W-method. V2.0. August 1, 2013
+
+Enter filename: JBFSM.txt
+FSM input from:  JBFSM.txt
+States: 6
+Edges 72
+Input alphabet:
+(
+)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Output alphabet:
+No
+Yes
+yes
+
+From 	 Input/Output 	 To
+1	 2/No		 1
+1	 3/No		 1
+1	 9/No		 1
+1	 5/No		 1
+1	 4/No		 1
+1	 (/No		 2
+1	 0/No		 1
+1	 8/No		 1
+1	 6/No		 1
+1	 1/No		 1
+1	 7/No		 1
+1	 )/No		 1
+2	 5/yes		 2
+2	 9/yes		 2
+2	 8/yes		 2
+2	 7/yes		 2
+2	 1/yes		 2
+2	 3/yes		 2
+2	 6/yes		 2
+2	 )/yes		 2
+2	 2/yes		 2
+2	 0/yes		 3
+2	 (/yes		 2
+2	 4/yes		 2
+3	 (/No		 1
+3	 2/No		 1
+3	 6/No		 1
+3	 3/No		 1
+3	 1/No		 1
+3	 )/No		 1
+3	 5/No		 1
+3	 8/No		 1
+3	 9/No		 1
+3	 4/No		 1
+3	 7/No		 1
+3	 0/No		 4
+4	 2/No		 1
+4	 3/No		 1
+4	 9/No		 1
+4	 0/No		 1
+4	 )/No		 1
+4	 (/No		 1
+4	 7/No		 5
+4	 4/No		 1
+4	 8/No		 1
+4	 1/No		 1
+4	 5/No		 1
+4	 6/No		 1
+5	 (/No		 5
+5	 0/No		 5
+5	 6/No		 5
+5	 8/No		 5
+5	 4/No		 5
+5	 5/No		 5
+5	 9/No		 5
+5	 1/No		 5
+5	 )/Yes		 6
+5	 2/No		 5
+5	 3/No		 5
+5	 7/No		 5
+6	 1/Yes		 6
+6	 3/Yes		 6
+6	 )/Yes		 6
+6	 2/Yes		 6
+6	 9/Yes		 6
+6	 4/Yes		 6
+6	 7/Yes		 6
+6	 5/Yes		 6
+6	 8/Yes		 6
+6	 (/Yes		 6
+6	 0/Yes		 6
+6	 6/Yes		 6
+
+Transition cover set (P). 73 entries.
+Empty ( (( () (0 (0( (0) (00 (00( (00) (000 (001 (002 (003 (004 (005 (006 (007 (007( (007) (007)( (007)) (007)0 (007)1 (007)2 (007)3 (007)4 (007)5 (007)6 (007)7 (007)8 (007)9 (0070 (0071 (0072 (0073 (0074 (0075 (0076 (0077 (0078 (0079 (008 (009 (01 (02 (03 (04 (05 (06 (07 (08 (09 (1 (2 (3 (4 (5 (6 (7 (8 (9 ) 0 1 2 3 4 5 6 7 8 9 
+
+W Set. 3 entries.
+( ) 0 
+
+Number of Test Cases :219
+Test cases: [(, ((, (((, ((), ((0, (), ()(, ()), ()0, (0, (0(, (0((, (0(), (0(0, (0), (0)(, (0)), (0)0, (00, (00(, (00((, (00(), (00(0, (00), (00)(, (00)), (00)0, (000, (000(, (000), (0000, (001(, (001), (0010, (002(, (002), (0020, (003(, (003), (0030, (004(, (004), (0040, (005(, (005), (0050, (006(, (006), (0060, (007(, (007((, (007(), (007(0, (007), (007)(, (007)((, (007)(), (007)(0, (007)), (007))(, (007))), (007))0, (007)0, (007)0(, (007)0), (007)00, (007)1(, (007)1), (007)10, (007)2(, (007)2), (007)20, (007)3(, (007)3), (007)30, (007)4(, (007)4), (007)40, (007)5(, (007)5), (007)50, (007)6(, (007)6), (007)60, (007)7(, (007)7), (007)70, (007)8(, (007)8), (007)80, (007)9(, (007)9), (007)90, (0070, (0070(, (0070), (00700, (0071(, (0071), (00710, (0072(, (0072), (00720, (0073(, (0073), (00730, (0074(, (0074), (00740, (0075(, (0075), (00750, (0076(, (0076), (00760, (0077(, (0077), (00770, (0078(, (0078), (00780, (0079(, (0079), (00790, (008(, (008), (0080, (009(, (009), (0090, (01(, (01), (010, (02(, (02), (020, (03(, (03), (030, (04(, (04), (040, (05(, (05), (050, (06(, (06), (060, (07(, (07), (070, (08(, (08), (080, (09(, (09), (090, (1(, (1), (10, (2(, (2), (20, (3(, (3), (30, (4(, (4), (40, (5(, (5), (50, (6(, (6), (60, (7(, (7), (70, (8(, (8), (80, (9(, (9), (90, ), )(, )), )0, 0, 0(, 0), 00, 1(, 1), 10, 2(, 2), 20, 3(, 3), 30, 4(, 4), 40, 5(, 5), 50, 6(, 6), 60, 7(, 7), 70, 8(, 8), 80, 9(, 9), 90]
+
+FSM execution begins. Input:  (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase0() { 
+	jamesBond = bond.bondRegex("(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase1() { 
+	jamesBond = bond.bondRegex("((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase2() { 
+	jamesBond = bond.bondRegex("(((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase3() { 
+	jamesBond = bond.bondRegex("(()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase4() { 
+	jamesBond = bond.bondRegex("((0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase5() { 
+	jamesBond = bond.bondRegex("()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ) (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase6() { 
+	jamesBond = bond.bondRegex("()(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ) )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase7() { 
+	jamesBond = bond.bondRegex("())");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( ) 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase8() { 
+	jamesBond = bond.bondRegex("()0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase9() { 
+	jamesBond = bond.bondRegex("(0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ( Next state: 1 Output: No
+@Test
+public void testCase10() { 
+	jamesBond = bond.bondRegex("(0(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase11() { 
+	jamesBond = bond.bondRegex("(0((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase12() { 
+	jamesBond = bond.bondRegex("(0()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase13() { 
+	jamesBond = bond.bondRegex("(0(0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase14() { 
+	jamesBond = bond.bondRegex("(0)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ) (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase15() { 
+	jamesBond = bond.bondRegex("(0)(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ) )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase16() { 
+	jamesBond = bond.bondRegex("(0))");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 ) 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase17() { 
+	jamesBond = bond.bondRegex("(0)0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+@Test
+public void testCase18() { 
+	jamesBond = bond.bondRegex("(00");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ( Next state: 1 Output: No
+@Test
+public void testCase19() { 
+	jamesBond = bond.bondRegex("(00(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase20() { 
+	jamesBond = bond.bondRegex("(00((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase21() { 
+	jamesBond = bond.bondRegex("(00()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ( Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase22() { 
+	jamesBond = bond.bondRegex("(00(0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase23() { 
+	jamesBond = bond.bondRegex("(00)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ) (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase24() { 
+	jamesBond = bond.bondRegex("(00)(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ) )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase25() { 
+	jamesBond = bond.bondRegex("(00))");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 ) 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase26() { 
+	jamesBond = bond.bondRegex("(00)0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase27() { 
+	jamesBond = bond.bondRegex("(000");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 0 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase28() { 
+	jamesBond = bond.bondRegex("(000(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 0 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase29() { 
+	jamesBond = bond.bondRegex("(000)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 0 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase30() { 
+	jamesBond = bond.bondRegex("(0000");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 1 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase31() { 
+	jamesBond = bond.bondRegex("(001(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 1 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase32() { 
+	jamesBond = bond.bondRegex("(001)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 1 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase33() { 
+	jamesBond = bond.bondRegex("(0010");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 2 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase34() { 
+	jamesBond = bond.bondRegex("(002(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 2 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase35() { 
+	jamesBond = bond.bondRegex("(002)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 2 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase36() { 
+	jamesBond = bond.bondRegex("(0020");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 3 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase37() { 
+	jamesBond = bond.bondRegex("(003(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 3 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase38() { 
+	jamesBond = bond.bondRegex("(003)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 3 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase39() { 
+	jamesBond = bond.bondRegex("(0030");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 4 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase40() { 
+	jamesBond = bond.bondRegex("(004(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 4 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase41() { 
+	jamesBond = bond.bondRegex("(004)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 4 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase42() { 
+	jamesBond = bond.bondRegex("(0040");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 5 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase43() { 
+	jamesBond = bond.bondRegex("(005(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 5 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase44() { 
+	jamesBond = bond.bondRegex("(005)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 5 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase45() { 
+	jamesBond = bond.bondRegex("(0050");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 6 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase46() { 
+	jamesBond = bond.bondRegex("(006(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 6 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase47() { 
+	jamesBond = bond.bondRegex("(006)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 6 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase48() { 
+	jamesBond = bond.bondRegex("(0060");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase49() { 
+	jamesBond = bond.bondRegex("(007(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase50() { 
+	jamesBond = bond.bondRegex("(007((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase51() { 
+	jamesBond = bond.bondRegex("(007()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase52() { 
+	jamesBond = bond.bondRegex("(007(0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase53() { 
+	jamesBond = bond.bondRegex("(007)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase54() { 
+	jamesBond = bond.bondRegex("(007)(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ( (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase55() { 
+	jamesBond = bond.bondRegex("(007)((");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ( )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase56() { 
+	jamesBond = bond.bondRegex("(007)()");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ( 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase57() { 
+	jamesBond = bond.bondRegex("(007)(0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase58() { 
+	jamesBond = bond.bondRegex("(007))");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ) (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase59() { 
+	jamesBond = bond.bondRegex("(007))(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ) )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase60() { 
+	jamesBond = bond.bondRegex("(007)))");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) ) 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase61() { 
+	jamesBond = bond.bondRegex("(007))0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase62() { 
+	jamesBond = bond.bondRegex("(007)0");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 0 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase63() { 
+	jamesBond = bond.bondRegex("(007)0(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 0 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase64() { 
+	jamesBond = bond.bondRegex("(007)0)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 0 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase65() { 
+	jamesBond = bond.bondRegex("(007)00");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 1 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 1 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase66() { 
+	jamesBond = bond.bondRegex("(007)1(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 1 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 1 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase67() { 
+	jamesBond = bond.bondRegex("(007)1)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 1 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 1 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase68() { 
+	jamesBond = bond.bondRegex("(007)10");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 2 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 2 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase69() { 
+	jamesBond = bond.bondRegex("(007)2(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 2 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 2 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase70() { 
+	jamesBond = bond.bondRegex("(007)2)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 2 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 2 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase71() { 
+	jamesBond = bond.bondRegex("(007)20");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 3 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 3 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase72() { 
+	jamesBond = bond.bondRegex("(007)3(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 3 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 3 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase73() { 
+	jamesBond = bond.bondRegex("(007)3)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 3 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 3 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase74() { 
+	jamesBond = bond.bondRegex("(007)30");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 4 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 4 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase75() { 
+	jamesBond = bond.bondRegex("(007)4(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 4 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 4 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase76() { 
+	jamesBond = bond.bondRegex("(007)4)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 4 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 4 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase77() { 
+	jamesBond = bond.bondRegex("(007)40");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 5 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 5 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase78() { 
+	jamesBond = bond.bondRegex("(007)5(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 5 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 5 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase79() { 
+	jamesBond = bond.bondRegex("(007)5)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 5 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 5 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase80() { 
+	jamesBond = bond.bondRegex("(007)50");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 6 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 6 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase81() { 
+	jamesBond = bond.bondRegex("(007)6(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 6 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 6 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase82() { 
+	jamesBond = bond.bondRegex("(007)6)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 6 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 6 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase83() { 
+	jamesBond = bond.bondRegex("(007)60");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 7 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 7 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase84() { 
+	jamesBond = bond.bondRegex("(007)7(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 7 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 7 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase85() { 
+	jamesBond = bond.bondRegex("(007)7)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 7 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 7 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase86() { 
+	jamesBond = bond.bondRegex("(007)70");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 8 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 8 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase87() { 
+	jamesBond = bond.bondRegex("(007)8(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 8 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 8 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase88() { 
+	jamesBond = bond.bondRegex("(007)8)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 8 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 8 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase89() { 
+	jamesBond = bond.bondRegex("(007)80");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 9 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 9 Next state: 6 Output: Yes
+Current state: 6
+ Input: ( Next state: 6 Output: Yes
+@Test
+public void testCase90() { 
+	jamesBond = bond.bondRegex("(007)9(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 9 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 9 Next state: 6 Output: Yes
+Current state: 6
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase91() { 
+	jamesBond = bond.bondRegex("(007)9)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 ) 9 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+Current state: 6
+ Input: 9 Next state: 6 Output: Yes
+Current state: 6
+ Input: 0 Next state: 6 Output: Yes
+@Test
+public void testCase92() { 
+	jamesBond = bond.bondRegex("(007)90");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase93() { 
+	jamesBond = bond.bondRegex("(0070");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 0 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase94() { 
+	jamesBond = bond.bondRegex("(0070(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 0 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase95() { 
+	jamesBond = bond.bondRegex("(0070)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 0 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase96() { 
+	jamesBond = bond.bondRegex("(00700");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 1 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 1 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase97() { 
+	jamesBond = bond.bondRegex("(0071(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 1 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 1 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase98() { 
+	jamesBond = bond.bondRegex("(0071)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 1 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 1 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase99() { 
+	jamesBond = bond.bondRegex("(00710");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 2 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 2 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase100() { 
+	jamesBond = bond.bondRegex("(0072(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 2 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 2 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase101() { 
+	jamesBond = bond.bondRegex("(0072)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 2 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 2 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase102() { 
+	jamesBond = bond.bondRegex("(00720");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 3 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 3 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase103() { 
+	jamesBond = bond.bondRegex("(0073(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 3 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 3 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase104() { 
+	jamesBond = bond.bondRegex("(0073)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 3 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 3 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase105() { 
+	jamesBond = bond.bondRegex("(00730");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 4 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 4 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase106() { 
+	jamesBond = bond.bondRegex("(0074(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 4 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 4 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase107() { 
+	jamesBond = bond.bondRegex("(0074)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 4 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 4 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase108() { 
+	jamesBond = bond.bondRegex("(00740");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 5 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 5 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase109() { 
+	jamesBond = bond.bondRegex("(0075(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 5 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 5 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase110() { 
+	jamesBond = bond.bondRegex("(0075)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 5 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 5 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase111() { 
+	jamesBond = bond.bondRegex("(00750");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 6 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 6 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase112() { 
+	jamesBond = bond.bondRegex("(0076(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 6 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 6 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase113() { 
+	jamesBond = bond.bondRegex("(0076)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 6 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 6 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase114() { 
+	jamesBond = bond.bondRegex("(00760");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 7 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase115() { 
+	jamesBond = bond.bondRegex("(0077(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 7 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase116() { 
+	jamesBond = bond.bondRegex("(0077)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 7 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase117() { 
+	jamesBond = bond.bondRegex("(00770");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 8 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 8 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase118() { 
+	jamesBond = bond.bondRegex("(0078(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 8 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 8 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase119() { 
+	jamesBond = bond.bondRegex("(0078)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 8 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 8 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase120() { 
+	jamesBond = bond.bondRegex("(00780");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 9 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 9 Next state: 5 Output: No
+Current state: 5
+ Input: ( Next state: 5 Output: No
+@Test
+public void testCase121() { 
+	jamesBond = bond.bondRegex("(0079(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 9 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 9 Next state: 5 Output: No
+Current state: 5
+ Input: ) Next state: 6 Output: Yes
+@Test
+public void testCase122() { 
+	jamesBond = bond.bondRegex("(0079)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 7 9 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 7 Next state: 5 Output: No
+Current state: 5
+ Input: 9 Next state: 5 Output: No
+Current state: 5
+ Input: 0 Next state: 5 Output: No
+@Test
+public void testCase123() { 
+	jamesBond = bond.bondRegex("(00790");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 8 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase124() { 
+	jamesBond = bond.bondRegex("(008(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 8 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase125() { 
+	jamesBond = bond.bondRegex("(008)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 8 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase126() { 
+	jamesBond = bond.bondRegex("(0080");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 9 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase127() { 
+	jamesBond = bond.bondRegex("(009(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 9 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase128() { 
+	jamesBond = bond.bondRegex("(009)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 0 9 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 0 Next state: 4 Output: No
+Current state: 4
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase129() { 
+	jamesBond = bond.bondRegex("(0090");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 1 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase130() { 
+	jamesBond = bond.bondRegex("(01(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 1 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase131() { 
+	jamesBond = bond.bondRegex("(01)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 1 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase132() { 
+	jamesBond = bond.bondRegex("(010");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 2 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase133() { 
+	jamesBond = bond.bondRegex("(02(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 2 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase134() { 
+	jamesBond = bond.bondRegex("(02)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 2 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase135() { 
+	jamesBond = bond.bondRegex("(020");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 3 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase136() { 
+	jamesBond = bond.bondRegex("(03(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 3 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase137() { 
+	jamesBond = bond.bondRegex("(03)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 3 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase138() { 
+	jamesBond = bond.bondRegex("(030");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 4 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase139() { 
+	jamesBond = bond.bondRegex("(04(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 4 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase140() { 
+	jamesBond = bond.bondRegex("(04)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 4 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase141() { 
+	jamesBond = bond.bondRegex("(040");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 5 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase142() { 
+	jamesBond = bond.bondRegex("(05(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 5 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase143() { 
+	jamesBond = bond.bondRegex("(05)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 5 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase144() { 
+	jamesBond = bond.bondRegex("(050");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 6 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase145() { 
+	jamesBond = bond.bondRegex("(06(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 6 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase146() { 
+	jamesBond = bond.bondRegex("(06)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 6 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase147() { 
+	jamesBond = bond.bondRegex("(060");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 7 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase148() { 
+	jamesBond = bond.bondRegex("(07(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 7 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase149() { 
+	jamesBond = bond.bondRegex("(07)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 7 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase150() { 
+	jamesBond = bond.bondRegex("(070");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 8 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase151() { 
+	jamesBond = bond.bondRegex("(08(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 8 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase152() { 
+	jamesBond = bond.bondRegex("(08)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 8 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase153() { 
+	jamesBond = bond.bondRegex("(080");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 9 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase154() { 
+	jamesBond = bond.bondRegex("(09(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 9 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase155() { 
+	jamesBond = bond.bondRegex("(09)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 0 9 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+Current state: 3
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase156() { 
+	jamesBond = bond.bondRegex("(090");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 1 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 1 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase157() { 
+	jamesBond = bond.bondRegex("(1(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 1 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 1 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase158() { 
+	jamesBond = bond.bondRegex("(1)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 1 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 1 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase159() { 
+	jamesBond = bond.bondRegex("(10");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 2 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 2 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase160() { 
+	jamesBond = bond.bondRegex("(2(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 2 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 2 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase161() { 
+	jamesBond = bond.bondRegex("(2)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 2 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 2 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase162() { 
+	jamesBond = bond.bondRegex("(20");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 3 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 3 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase163() { 
+	jamesBond = bond.bondRegex("(3(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 3 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 3 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase164() { 
+	jamesBond = bond.bondRegex("(3)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 3 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 3 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase165() { 
+	jamesBond = bond.bondRegex("(30");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 4 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 4 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase166() { 
+	jamesBond = bond.bondRegex("(4(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 4 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 4 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase167() { 
+	jamesBond = bond.bondRegex("(4)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 4 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 4 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase168() { 
+	jamesBond = bond.bondRegex("(40");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 5 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 5 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase169() { 
+	jamesBond = bond.bondRegex("(5(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 5 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 5 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase170() { 
+	jamesBond = bond.bondRegex("(5)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 5 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 5 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase171() { 
+	jamesBond = bond.bondRegex("(50");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 6 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 6 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase172() { 
+	jamesBond = bond.bondRegex("(6(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 6 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 6 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase173() { 
+	jamesBond = bond.bondRegex("(6)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 6 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 6 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase174() { 
+	jamesBond = bond.bondRegex("(60");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 7 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 7 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase175() { 
+	jamesBond = bond.bondRegex("(7(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 7 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 7 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase176() { 
+	jamesBond = bond.bondRegex("(7)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 7 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 7 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase177() { 
+	jamesBond = bond.bondRegex("(70");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 8 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 8 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase178() { 
+	jamesBond = bond.bondRegex("(8(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 8 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 8 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase179() { 
+	jamesBond = bond.bondRegex("(8)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 8 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 8 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase180() { 
+	jamesBond = bond.bondRegex("(80");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 9 (  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 9 Next state: 2 Output: yes
+Current state: 2
+ Input: ( Next state: 2 Output: yes
+@Test
+public void testCase181() { 
+	jamesBond = bond.bondRegex("(9(");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 9 )  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 9 Next state: 2 Output: yes
+Current state: 2
+ Input: ) Next state: 2 Output: yes
+@Test
+public void testCase182() { 
+	jamesBond = bond.bondRegex("(9)");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  ( 9 0  Initial state: 1
+Current state: 1
+ Input: ( Next state: 2 Output: No
+Current state: 2
+ Input: 9 Next state: 2 Output: yes
+Current state: 2
+ Input: 0 Next state: 3 Output: yes
+@Test
+public void testCase183() { 
+	jamesBond = bond.bondRegex("(90");
+	assertTrue(jamesBond);
+}
+
+
+FSM execution begins. Input:  )  Initial state: 1
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase184() { 
+	jamesBond = bond.bondRegex(")");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  ) (  Initial state: 1
+Current state: 1
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase185() { 
+	jamesBond = bond.bondRegex(")(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  ) )  Initial state: 1
+Current state: 1
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase186() { 
+	jamesBond = bond.bondRegex("))");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  ) 0  Initial state: 1
+Current state: 1
+ Input: ) Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase187() { 
+	jamesBond = bond.bondRegex(")0");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  0  Initial state: 1
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase188() { 
+	jamesBond = bond.bondRegex("0");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  0 (  Initial state: 1
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase189() { 
+	jamesBond = bond.bondRegex("0(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  0 )  Initial state: 1
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase190() { 
+	jamesBond = bond.bondRegex("0)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  0 0  Initial state: 1
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase191() { 
+	jamesBond = bond.bondRegex("00");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  1 (  Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase192() { 
+	jamesBond = bond.bondRegex("1(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  1 )  Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase193() { 
+	jamesBond = bond.bondRegex("1)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  1 0  Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase194() { 
+	jamesBond = bond.bondRegex("10");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  2 (  Initial state: 1
+Current state: 1
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase195() { 
+	jamesBond = bond.bondRegex("2(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  2 )  Initial state: 1
+Current state: 1
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase196() { 
+	jamesBond = bond.bondRegex("2)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  2 0  Initial state: 1
+Current state: 1
+ Input: 2 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase197() { 
+	jamesBond = bond.bondRegex("20");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  3 (  Initial state: 1
+Current state: 1
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase198() { 
+	jamesBond = bond.bondRegex("3(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  3 )  Initial state: 1
+Current state: 1
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase199() { 
+	jamesBond = bond.bondRegex("3)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  3 0  Initial state: 1
+Current state: 1
+ Input: 3 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase200() { 
+	jamesBond = bond.bondRegex("30");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  4 (  Initial state: 1
+Current state: 1
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase201() { 
+	jamesBond = bond.bondRegex("4(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  4 )  Initial state: 1
+Current state: 1
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase202() { 
+	jamesBond = bond.bondRegex("4)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  4 0  Initial state: 1
+Current state: 1
+ Input: 4 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase203() { 
+	jamesBond = bond.bondRegex("40");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  5 (  Initial state: 1
+Current state: 1
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase204() { 
+	jamesBond = bond.bondRegex("5(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  5 )  Initial state: 1
+Current state: 1
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase205() { 
+	jamesBond = bond.bondRegex("5)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  5 0  Initial state: 1
+Current state: 1
+ Input: 5 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase206() { 
+	jamesBond = bond.bondRegex("50");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  6 (  Initial state: 1
+Current state: 1
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase207() { 
+	jamesBond = bond.bondRegex("6(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  6 )  Initial state: 1
+Current state: 1
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase208() { 
+	jamesBond = bond.bondRegex("6)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  6 0  Initial state: 1
+Current state: 1
+ Input: 6 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase209() { 
+	jamesBond = bond.bondRegex("60");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  7 (  Initial state: 1
+Current state: 1
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase210() { 
+	jamesBond = bond.bondRegex("7(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  7 )  Initial state: 1
+Current state: 1
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase211() { 
+	jamesBond = bond.bondRegex("7)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  7 0  Initial state: 1
+Current state: 1
+ Input: 7 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase212() { 
+	jamesBond = bond.bondRegex("70");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  8 (  Initial state: 1
+Current state: 1
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase213() { 
+	jamesBond = bond.bondRegex("8(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  8 )  Initial state: 1
+Current state: 1
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase214() { 
+	jamesBond = bond.bondRegex("8)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  8 0  Initial state: 1
+Current state: 1
+ Input: 8 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase215() { 
+	jamesBond = bond.bondRegex("80");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  9 (  Initial state: 1
+Current state: 1
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ( Next state: 2 Output: No
+@Test
+public void testCase216() { 
+	jamesBond = bond.bondRegex("9(");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  9 )  Initial state: 1
+Current state: 1
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: ) Next state: 1 Output: No
+@Test
+public void testCase217() { 
+	jamesBond = bond.bondRegex("9)");
+	assertFalse(jamesBond);
+}
+
+
+FSM execution begins. Input:  9 0  Initial state: 1
+Current state: 1
+ Input: 9 Next state: 1 Output: No
+Current state: 1
+ Input: 0 Next state: 1 Output: No
+@Test
+public void testCase218() { 
+	jamesBond = bond.bondRegex("90");
+	assertFalse(jamesBond);
+}
+
+
